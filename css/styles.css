@@ -21,3 +21,8 @@ strong {
   color: magenta;
   text-decoration: underline;
 }
+
+.jumbotron {
+  text-align: center;
+  border: 2px solid teal;
+}

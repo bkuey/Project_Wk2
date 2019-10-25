@@ -17,7 +17,7 @@ $(function() {
     if (work === '1' && question1 === 'no' && question2 === 'nah' && question3 === 'ex') {
       alert("JavaScript");
       $('#success').show();
-    } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
+    } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'ex') {
       alert("Python");
       $('#success').show();
     }
