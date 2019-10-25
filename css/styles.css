@@ -18,4 +18,6 @@ strong {
 
 #success {
   display: none;
+  color: magenta;
+  text-decoration: underline;
 }
