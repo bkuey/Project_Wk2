@@ -6,7 +6,15 @@ $(function() {
     var question3 = $("input:radio[name=question3]:checked").val();
     var sports = $("#sports");
 
-    if (work === '2') {
+    if (work === '1' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
+      alert("Swift");
+    } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
+      alert("Python");
+    }
+
+    if (work === '1' && question1 === 'no' && question2 === 'nah' && question3 === 'ex') {
+      alert("JavaScript");
+    } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
       alert("Python");
     }
 
