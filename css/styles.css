@@ -1,0 +1,21 @@
+#sports {
+  margin-bottom: 15px;
+  color: red;
+}
+
+#work {
+  margin-bottom: 15px;
+  color: red;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+strong {
+  color: purple;
+}
+
+#success {
+  display: none;
+}

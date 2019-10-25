@@ -8,6 +8,7 @@ $(function() {
 
     if (work === '1' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
       alert("Swift");
+      $('#success').show();
     } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
       alert("Python");
     }
@@ -16,6 +17,12 @@ $(function() {
       alert("JavaScript");
     } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
       alert("Python");
+    }
+
+    if (work === '1' && question1 === 'no' && question2 === 'yup' && question3 === 'in') {
+      alert("JavaScript");
+    } else if (work === '2' && question1 === 'no' && question2 === 'yup' && question3 === 'ex') {
+      alert("Swift");
     }
 
     event.preventDefault();
