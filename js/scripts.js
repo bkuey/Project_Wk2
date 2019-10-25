@@ -11,18 +11,23 @@ $(function() {
       $('#success').show();
     } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
       alert("Python");
+      $('#success').show();
     }
 
     if (work === '1' && question1 === 'no' && question2 === 'nah' && question3 === 'ex') {
       alert("JavaScript");
+      $('#success').show();
     } else if (work === '2' && question1 === 'yes' && question2 === 'yup' && question3 === 'in') {
       alert("Python");
+      $('#success').show();
     }
 
     if (work === '1' && question1 === 'no' && question2 === 'yup' && question3 === 'in') {
       alert("JavaScript");
+      $('#success').show();
     } else if (work === '2' && question1 === 'no' && question2 === 'yup' && question3 === 'ex') {
       alert("Swift");
+      $('#success').show();
     }
 
     event.preventDefault();
